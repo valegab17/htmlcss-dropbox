@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+ font-family: "Open Sans", sans-serif;
+  
+  font-style: normal;;
+}
 
 /* HEADER */
     header{
@@ -13,9 +18,23 @@
         justify-content: space-between;
         align-items: center;
     }
-
-
-
+    
+    
+    /* Jumbo */
+    
+    .card{
+        margin-top: 50px;
+        display: flex;
+        width: 80%;
+    }
+    
+    .jumbotron{
+        height: 500px;
+        background-color: #b4d0e6;
+        display: flex;
+        justify-content: center;
+    }
+    
     /*DEBUG*/
     header{
         background-color: #26d932 ;
@@ -28,25 +47,13 @@
     .link{
         background-color: #d0d926;
     }
-
+    
     .buttons{
         background-color: #d0d926;
     }
-
-
-    .jumbotron{
-        height: 500px;
-        background-color: #b4d0e6;
-        display: flex;
-        justify-content: center;
-        
-    }
     
-    .card{
-        margin-top: 50px;
-        display: flex;
-        width: 80%;
-    }
+        
+    
 
     .card-blue{
         background-color: blue;
@@ -63,4 +70,34 @@
         border: 1px dashed black;
         height: 80%;
        
+    }
+
+    .business-plan{
+        display: flex;
+        justify-content: center;
+    }
+    .columns{
+        width: 80%;
+        border: 1px solid grey;
+        height: 500px;
+        display: flex;
+        text-align: center;
+        gap: 25px;
+        
+    }
+
+    .col{
+        width: calc(100% / 3);
+        border: 1px solid black;
+       gap: 10px;
+       
+    }
+
+    p{
+        border-bottom: 1px solid grey;
+    }
+
+    .bottom-col{
+        height: 300px;
+        width: 80%;
     }
