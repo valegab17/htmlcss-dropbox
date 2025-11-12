@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+    header{
+        display: flex;
+        height: 80px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    /*DEBUG*/
+    header{
+        background-color: #26d932 ;
+    }
+
+    .logo{
+        background-color:  #d0d926;
+    }
+
+    .link{
+        background-color: #d0d926;
+    }
+
+    .buttons{
+        background-color: #d0d926;
+    }
+
+
+    .jumbotron{
+        height: 500px;
+        background-color: #b4d0e6;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .card{
+        margin-top: 50px;
+        display: flex;
+        width: 80%;
+    }
+
+    .card-blue{
+        background-color: blue;
+        width: 30%;
+        border: 1px dashed black;
+        height: 80% ;
+        
+        
+    }
+
+    .card-red{
+        background-color: red;
+        width: 70%;
+        border: 1px dashed black;
+        height: 80%;
+       
+    }
