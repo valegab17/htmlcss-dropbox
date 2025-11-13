@@ -11,14 +11,45 @@ body {
 }
 
 /* HEADER */
-header {
+
+
+nav{
+    justify-content: space-between;
+    align-items: center; 
     display: flex;
     height: 80px;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
+a{
+    text-decoration: none;
+    color:#000;
+}
+.link a{
+    margin-right: 10px;
+
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    border-style: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+}
+
+.btn-white{
+    background-color: #fff;
+}
+
+.btn-blue{
+    background-color: #3B82F6;
+    color: #fff
+;
+}
 /* Jumbo */
 
 .card {
@@ -35,21 +66,8 @@ header {
 }
 
 /*DEBUG*/
-header {
-    background-color: #26d932;
-}
 
-.logo {
-    background-color: #d0d926;
-}
 
-.link {
-    background-color: #d0d926;
-}
-
-.buttons {
-    background-color: #d0d926;
-}
 
 .card-grey {
     background-color: grey;
