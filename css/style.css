@@ -13,25 +13,26 @@ body {
 /* HEADER */
 
 
-nav{
+nav {
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     display: flex;
     height: 80px;
     width: 100%;
 
 }
 
-a{
+a {
     text-decoration: none;
-    color:#000;
+    color: #000;
 }
-.link a{
+
+.link a {
     margin-right: 10px;
 
 }
 
-button{
+button {
     padding: 10px;
     margin: 10px;
     color: black;
@@ -41,15 +42,15 @@ button{
 
 }
 
-.btn-white{
+.btn-white {
     background-color: #fff;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: #3B82F6;
-    color: #fff
-;
+    color: #fff;
 }
+
 /* Jumbo */
 .jumbotron {
     height: 500px;
@@ -57,7 +58,7 @@ button{
     display: flex;
     justify-content: center;
     margin-bottom: 10%;
-    
+
 }
 
 .card {
@@ -66,17 +67,19 @@ button{
     width: 80%;
 }
 
-.card-text{
+.card-text {
     text-align: left;
-   font-size: 1rem;
-   margin-bottom: 20%;
-   border-style: none;
+    font-size: 1rem;
+    margin-bottom: 20%;
+    border-style: none;
 
 }
-.jumbo-img{
+
+.jumbo-img {
     width: 80%;
 }
-.jumbo{
+
+.jumbo {
     width: 130%;
 }
 
@@ -104,8 +107,12 @@ button{
 
 /* BUSINESS PLAN */
 .business-plan {
-  text-align: center;
-  margin: 0, auto;
+    text-align: center;
+    margin: 0, auto;
+}
+
+label {
+    margin-top: 20%;
 }
 
 .columns {
@@ -127,6 +134,19 @@ button{
 
 p {
     border-bottom: 1px solid grey;
+}
+
+.plan-list {
+    text-align: left;
+    list-style: none;
+    padding: 20px 10px;
+    margin: 10px;
+}
+
+hr{
+    width: 10px;
+    height: 2px;
+    background-color: #000;
 }
 
 .bottom-col {
