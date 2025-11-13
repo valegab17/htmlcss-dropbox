@@ -1,103 +1,133 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
- font-family: "Open Sans", sans-serif;
-  
-  font-style: normal;;
+body {
+    font-family: "Open Sans", sans-serif;
+
+    font-style: normal;
 }
 
 /* HEADER */
-    header{
-        display: flex;
-        height: 80px;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    
-    /* Jumbo */
-    
-    .card{
-        margin-top: 50px;
-        display: flex;
-        width: 80%;
-    }
-    
-    .jumbotron{
-        height: 500px;
-        background-color: #b4d0e6;
-        display: flex;
-        justify-content: center;
-    }
-    
-    /*DEBUG*/
-    header{
-        background-color: #26d932 ;
-    }
+header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .logo{
-        background-color:  #d0d926;
-    }
+/* Jumbo */
 
-    .link{
-        background-color: #d0d926;
-    }
-    
-    .buttons{
-        background-color: #d0d926;
-    }
-    
-        
-    
+.card {
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+}
 
-    .card-blue{
-        background-color: blue;
-        width: 30%;
-        border: 1px dashed black;
-        height: 80% ;
-        
-        
-    }
+.jumbotron {
+    height: 500px;
+    background-color: #b4d0e6;
+    display: flex;
+    justify-content: center;
+}
 
-    .card-red{
-        background-color: red;
-        width: 70%;
-        border: 1px dashed black;
-        height: 80%;
-       
-    }
+/*DEBUG*/
+header {
+    background-color: #26d932;
+}
 
-    .business-plan{
-        display: flex;
-        justify-content: center;
-    }
-    .columns{
-        width: 80%;
-        border: 1px solid grey;
-        height: 500px;
-        display: flex;
-        text-align: center;
-        gap: 25px;
-        
-    }
+.logo {
+    background-color: #d0d926;
+}
 
-    .col{
-        width: calc(100% / 3);
-        border: 1px solid black;
-       gap: 10px;
-       
-    }
+.link {
+    background-color: #d0d926;
+}
 
-    p{
-        border-bottom: 1px solid grey;
-    }
+.buttons {
+    background-color: #d0d926;
+}
 
-    .bottom-col{
-        height: 300px;
-        width: 80%;
-    }
+.card-grey {
+    background-color: grey;
+}
+
+.card-blue {
+    background-color: blue;
+    width: 30%;
+    border: 1px dashed black;
+    height: 80%;
+}
+
+.card-red {
+    background-color: red;
+    width: 70%;
+    border: 1px dashed black;
+    height: 80%;
+}
+
+/* BUSINESS PLAN */
+.business-plan {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns {
+    width: 80%;
+    border: 1px solid grey;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    gap: 25px;
+}
+
+.col {
+    width: calc(100% / 3);
+    border: 1px solid black;
+    gap: 10px;
+}
+
+p {
+    border-bottom: 1px solid grey;
+}
+
+.bottom-col {
+    margin-top: 10%;
+    border: 1px solid black;
+    min-height: 60px;
+    width: 80%;
+}
+
+/* DROP BOX PARTNER */
+
+.drop-box-partner {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.business-card {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin-top: 5%;
+}
+
+/* DROP BOX BUSINESS  */
+.card-business {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 200px;
+}
+
+.card-grey {
+    width: calc(100% / 3 - (20px / 3));
+}
