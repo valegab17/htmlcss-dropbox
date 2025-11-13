@@ -111,6 +111,15 @@ button {
     margin: 0, auto;
 }
 
+.radio {
+    margin: 20px;
+    width: 60%;
+}
+
+input {
+    color: blue
+}
+
 label {
     margin-top: 20%;
 }
@@ -135,17 +144,19 @@ p {
     border-bottom: 1px solid grey;
 }
 
-.plan-list, .plan-highlights {
+.plan-list,
+.plan-highlights {
     text-align: left;
     list-style: none;
     padding: 20px 10px;
     margin: 10px;
 }
 
-li{
+li {
     margin-top: 10px;
 }
-.grey-text{
+
+.grey-text {
     color: grey;
 }
 
@@ -155,7 +166,38 @@ li{
     min-height: 60px;
     width: 80%;
     margin: 0 auto;
+    text-align: left;
+    position: relative;
 }
+
+.btn-blue-sales {
+    color: #fff;
+    background-color: #3B82F6;
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+/* BOTTOM COLUMN */
+.bottom-col {}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+
+h4 {
+    margin-bottom: 5%;
+}
+
+.col-footer-text {
+    text-align: left;
+}
+
 
 /* DROP BOX PARTNER */
 
@@ -170,6 +212,17 @@ li{
     flex-direction: row-reverse;
     width: 80%;
     margin-top: 5%;
+    text-align: left;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.border-btn {
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 20px;
 }
 
 /* DROP BOX BUSINESS  */
