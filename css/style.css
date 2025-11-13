@@ -51,6 +51,14 @@ button{
 ;
 }
 /* Jumbo */
+.jumbotron {
+    height: 500px;
+    background-color: #b4d0e6;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    
+}
 
 .card {
     margin-top: 50px;
@@ -58,11 +66,18 @@ button{
     width: 80%;
 }
 
-.jumbotron {
-    height: 500px;
-    background-color: #b4d0e6;
-    display: flex;
-    justify-content: center;
+.card-text{
+    text-align: left;
+   font-size: 1rem;
+   margin-bottom: 20%;
+   border-style: none;
+
+}
+.jumbo-img{
+    width: 80%;
+}
+.jumbo{
+    width: 130%;
 }
 
 /*DEBUG*/
@@ -89,23 +104,23 @@ button{
 
 /* BUSINESS PLAN */
 .business-plan {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  margin: 0, auto;
 }
 
 .columns {
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
     border: 1px solid grey;
     height: 500px;
-    display: flex;
-    text-align: center;
     gap: 25px;
+    margin-bottom: 10%;
 }
 
 .col {
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     border: 1px solid black;
     gap: 10px;
 }
@@ -115,10 +130,10 @@ p {
 }
 
 .bottom-col {
-    margin-top: 10%;
     border: 1px solid black;
     min-height: 60px;
     width: 80%;
+    margin: 0 auto;
 }
 
 /* DROP BOX PARTNER */
