@@ -83,13 +83,6 @@ button {
     width: 130%;
 }
 
-/*DEBUG*/
-
-
-
-.card-grey {
-    background-color: grey;
-}
 
 /* BUSINESS PLAN */
 .business-plan {
@@ -165,7 +158,6 @@ li {
 }
 
 /* BOTTOM COLUMN */
-.bottom-col {}
 
 p {
     text-align: center;
