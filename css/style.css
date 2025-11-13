@@ -136,7 +136,7 @@ p {
     border-bottom: 1px solid grey;
 }
 
-.plan-list {
+.plan-list, .plan-highlights {
     text-align: left;
     list-style: none;
     padding: 20px 10px;
@@ -148,6 +148,7 @@ hr{
     height: 2px;
     background-color: #000;
 }
+
 
 .bottom-col {
     border: 1px solid black;
